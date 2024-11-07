@@ -1,0 +1,7 @@
+number_1 = float(input('Введіть число '))
+if number_1 < 0:
+    print("Число менше за нуль")
+elif number_1 > 0:
+    print("Число Більше нуля")
+else:
+    print("Число дорівнює нулю")
