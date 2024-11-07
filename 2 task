@@ -1,0 +1,7 @@
+number_1 = int(input('Введіть число '))
+n = 1
+result = 1
+while n <= number_1:
+    result *= n
+    n += 1
+print("Факторіал заданого числа: ", result)
